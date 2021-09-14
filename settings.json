@@ -34,7 +34,7 @@
         }
       },
       {
-        "scope": "storage.type.function",
+        "scope": "storage.type",
         "settings": {
           "fontStyle": "italic"
         }
