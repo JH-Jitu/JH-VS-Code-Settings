@@ -1,0 +1,105 @@
+{
+  // Editor Setup: => Font, Signs etc
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  // "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+
+  // Optional Sumit Vai
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+
+  // Font style in Every Attribute
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.other",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#FF5370"
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#b2b8d4"
+        }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // cursor  formatting
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  // code formatting
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "eslint.alwaysShowStatus": true,
+  // "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+
+  // Theme for every language
+  "theme-by-language.themes": {
+    "javascriptreact": "Material Theme Darker",
+    "javascript": "Community Material Theme Ocean High Contrast",
+    "cpp": "Material Theme Palenight High Contrast",
+    "html": "Material Theme Darker",
+    "json": "Community Material Theme Darker High Contrast",
+    "*": "Material Theme Darker"
+  },
+
+  // Terminal Formatting
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Operator Mono Lig, Fira Code",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#b3c0df",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#7b69bb",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#fbfdfd",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "code-runner.runInTerminal": true
+}
