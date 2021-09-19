@@ -1,0 +1,44 @@
+// ctrl + shift + p => configure user snippets and => create a new file and => paste it
+{
+  "shortDescription": {
+    "prefix": ["shortdefinition"],
+    "body": [
+      "/*",
+      " * Topic: $1",
+      " * \tDescription - 1: $2",
+      " * \tDescription - 2: $3",
+      " * Question/Answer => \tQuestion: $4",
+      " * \t\t\t\t\t\t Answer: $5",
+      " * $6",
+      " */"
+    ],
+    "description": "definition for a topic"
+  },
+
+  "comment": {
+    "prefix": ["comment"],
+    "body": [
+      "/*",
+      " * Title: $1",
+      " * Description: $2",
+      " * Author: $3",
+      " * Date: $4",
+      " * Question/Answer => \tQuestion: $5",
+      " * \t\t\t\t\t\t Answer: $6",
+      " * $7",
+      " */"
+    ],
+    "description": "Comment for a project file"
+  },
+
+  "QuestionAnswer": {
+    "prefix": ["questionanswer"],
+    "body": [
+      "/* Question/Answer => ",
+      " * \t\t\t Question: $1",
+      " * \t\t\t Answer: $2",
+      " */"
+    ],
+    "description": "Question Answer for any topic"
+  }
+}
