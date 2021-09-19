@@ -1,3 +1,4 @@
+// Make the file name: .eslintrc.json
 {
   "extends": ["prettier", "airbnb-base"],
   "parserOptions": {
